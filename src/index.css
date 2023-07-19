@@ -69,7 +69,7 @@ a {
 .primaryText {
   color: #1f3e72;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .secondaryText {
@@ -78,8 +78,23 @@ a {
 }
 .orangeText {
   color: orange;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
+}
+
+.button{
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color: white;
+  background: var(--blue-gradient);
+  border: none;
+  border-radius: 5px;
+  transition: all 300ms ease-in;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 /* media queries */
