@@ -11,7 +11,7 @@ const Neighbourhood = () => {
              <div className="paddings innerWidth r-container">
                 <div className="r-head flexColStart">
                     <span className="orangeText">Popular Spots</span>
-                    <span className="primaryText">Junction Triangle</span>
+                    <span className="primaryText">Junction - Wallace Emerson</span>
                 </div>
 
                 <Swiper {...sliderSettings}>
@@ -21,12 +21,12 @@ const Neighbourhood = () => {
                             <SwiperSlide key={i}>
                                 <div className="flexColStart r-card">
                                     <img src={card.image} alt="home" />
+                                    <span className="primaryText">{card.name}</span>
                                     <span className="secondaryText r-price">
-                                        <span style={{ color: "orange" }}>$</span>
-                                        <span>{card.price}</span>
+                                        <span>{card.address}</span>
                                     </span>
 
-                                    <span className="primaryText">{card.name}</span>
+                                    
                                     <span className="secondaryText">{card.detail}</span>
                                 </div>
                             </SwiperSlide>

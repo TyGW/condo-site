@@ -1,38 +1,38 @@
 [
   {
     "name": "Wallace Espresso",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "address": "188 Wallace Ave",
+    "detail": "Wallace Espresso is known for pouring excellent espresso-based beverages in compact coffee shops by baristas who are as cool as they are personable.",
+    "image": "./wallace.jpg"
   },
   {
     "name": "Boulderz Climbing Centre",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "address": "1444 Dupont St. Unit #16",
+    "detail": "Climbing gym that specializes in bouldering routes, plus classes, kids' programs & gear rentals.",
+    "image": "./boulderz.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Piri Piri Grill",
+    "address": "1444 Dupont St",
+    "detail": "Restaurant with Portuguese specialties in a welcoming setting, known for its signature hot sauce.",
+    "image": "./piri.jpg"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Blood Brothers Brewing",
+    "address": "165 Geary Ave",
+    "detail": "Beer & pub-style dishes served in a vast, industrial-chic taproom that has a patio.",
+    "image": "./blood.jpg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Mattachioni",
+    "address": "1617 Dupont St",
+    "detail": "Unassuming bodega offering pizza & Italian sandwiches on house-baked bread, plus salads & treats.",
+    "image": "./mattachioni.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Lynx Music",
+    "address": "260 Emerson Ave",
+    "detail": "Lynx Music is a creative sanctuary in the heart of Toronto, conceived by artists, for artists.",
+    "image": "./lynx.jpg"
   }
 ]
