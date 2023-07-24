@@ -7,11 +7,12 @@ import { sliderSettings } from "../../utils/common";
 
 const Neighbourhood = () => {
     return (
-        <section className="r-wrapper">
+        <section className="r-wrapper" id="neigh">
              <div className="paddings innerWidth r-container">
                 <div className="r-head flexColStart">
-                    <span className="orangeText">Popular Spots</span>
+                    <span className="orangeText">The Neighbourhood</span>
                     <span className="primaryText">Junction - Wallace Emerson</span>
+                    <span className="secondaryText">Popular Spots</span>
                 </div>
 
                 <Swiper {...sliderSettings}>

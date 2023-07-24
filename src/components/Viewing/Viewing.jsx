@@ -1,16 +1,16 @@
 import React from 'react'
-import './GetStarted.css'
+import './Viewing.css'
 
 
-const GetStarted = () => {
+const Viewing = () => {
   return (
-    <section className="g-wrapper">
+    <section className="g-wrapper" id='viewing'>
         <div className="paddings innerWidth g-container">
             <div className="flexColCenter inner-container">
                 <span className='primaryText'>Book a Viewing Today!</span>
                 <span className='secondaryText'>
-                    Viewings can be placed with 4 hours+ notice.
-                    <br />
+                    Viewings can be placed with a minimum of 4 hours notice.
+                
                     Viewings are between 9am-7pm, 7 days a week.
                 </span>
                 <button className="button">
@@ -22,4 +22,4 @@ const GetStarted = () => {
   )
 }
 
-export default GetStarted
+export default Viewing

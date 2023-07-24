@@ -5,7 +5,7 @@ import Companies from "./components/Companies/Companies.jsx";
 import Neighbourhood from "./components/Neighbourhood/Neighbourhood";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
-import GetStarted from "./components/GetStarted/GetStarted";
+import Viewing from "./components/Viewing/Viewing";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <Value />
       <Neighbourhood />
       <Contact />
-      <GetStarted />
+      <Viewing />
       <Footer />
     </div>
   );

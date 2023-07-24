@@ -22,18 +22,25 @@ const Hero = () => {
                     }}
                     >
                         Discover <br />Junction - <br />Wallace Emerson <br />
+                    
                     </motion.h1>
+                    
+                    <motion.span
+                    initial={{y: "2rem", opacity: 0}}
+                    animate={{y: 0, opacity: 1}}
+                    transition={{
+                        duration: 3,
+                        type: "spring"
+                    }}>
+                    <div className="flexColStart hero-des">
+                        <span><br />Experience the best of Toronto's West End</span>
+                    </div>
+                    </motion.span>
                 </div>
 
-                <div className="flexColStart hero-des">
-                    <span>Experience the best of Toronto's West End</span>
-                </div>
+                
 
-                <div className="flexCenter search-bar">
-                    <HiLocationMarker color="var(--blue)" size={25}/>
-                    <input type="text" />
-                    <button className="button">Search</button>
-                </div>
+                
 
                 <div className="flexCenter stats">
                     <div className="flexColStart stat">
