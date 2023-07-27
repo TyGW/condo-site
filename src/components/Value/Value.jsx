@@ -27,9 +27,9 @@ const Value = () => {
 
             {/*right side */}
             <div className="flexColStart v-right">
-                <span className='orangeText'>Our Value</span>
+                <span className='orangeText'>The Value</span>
                 <span className='primaryText'>Value We Give To You</span>
-                <span className='secondaryText'>Always Here To Help</span>
+                <span className='secondaryText'>What You Can Expect</span>
 
                 <Accordion
                 className='accordion'

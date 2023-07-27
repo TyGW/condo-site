@@ -1,23 +1,22 @@
-import { HiShieldCheck } from "react-icons/hi";
-import { MdCancel, MdAnalytics } from "react-icons/md";
+import { MdSavings, MdHdrStrong, MdOutlineDiamond } from "react-icons/md";
 const data = [
   {
-    icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    icon: <MdSavings/>,
+    heading: "Best value on the market",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "This property has been valued against similar properties in the surrounding neighborhood and current market prices. We offer the greatest value for our pricepoint.",
   },
   {
-    icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    icon: <MdHdrStrong />,
+    heading: "Flexible closing date",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Whether you are looking to close in 30 days, or need more time. We will be as flexible as we can to accomodate you.",
   },
   {
-    icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    icon: <MdOutlineDiamond />,
+    heading: "Perfect for rental property",
     detail:
-      "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+      "Located within a rapidly growing area of Toronto. This property would be a perfect rental opportunity",
   },
 ];
 export default data;

@@ -59,6 +59,20 @@
     scale: 0.8;
 }
 
+.google-map {
+    padding-bottom: 60%;
+    padding-top: 5%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
 @media (max-width:1024px){
     .c-container{
         flex-direction: column;

@@ -21,38 +21,13 @@ const Hero = () => {
                         type: "spring"
                     }}
                     >
-                        Discover <br />Junction - <br />Wallace Emerson <br />
+                        1420 Dupont Street <br />
                     
                     </motion.h1>
                     
-                    <motion.span
-                    initial={{y: "2rem", opacity: 0}}
-                    animate={{y: 0, opacity: 1}}
-                    transition={{
-                        duration: 3,
-                        type: "spring"
-                    }}>
-                    <div className="flexColStart hero-des">
-                        <span><br />Experience the best of Toronto's West End</span>
-                    </div>
-                    </motion.span>
+                   
                 </div>
 
-                
-
-                
-
-                <div className="flexCenter stats">
-                    <div className="flexColStart stat">
-                        <span>One Bedroom + Den</span>
-                    </div>
-                    <div className="flexColStart stat">
-                        <span>One Bathroom</span>
-                    </div>
-                    <div className="flexColStart stat">
-                        <span>Balcony</span>
-                    </div>
-                </div>
 
             </div>
             {/* right side */}
@@ -64,10 +39,21 @@ const Hero = () => {
                     duration: 2,
                     type: "spring"
                 }}
-                className="image-container">
-                    <img src="./hero-image.png" alt="" />
+                className="image-containerh">
+                    <img src="./livingroom.jpg" alt="" />
                 </motion.div>
             </div>
+            <div className="flexCenter stats">
+                    <div className="flexColStart stat">
+                        <span>One Bedroom + Den</span>
+                    </div>
+                    <div className="flexColStart stat">
+                        <span>One Bathroom</span>
+                    </div>
+                    <div className="flexColStart stat">
+                        <span>Parking + Storage</span>
+                    </div>
+                </div>
         </div>
     </section>
   )
