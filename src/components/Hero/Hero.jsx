@@ -14,10 +14,10 @@ const Hero = () => {
                 <div className="hero-title">
                     <div className="orange-circle"/>
                     <motion.h1
-                    initial={{y: "2rem", opacity: 0}}
+                    initial={{y: "-2rem", opacity: 0}}
                     animate={{y: 0, opacity: 1}}
                     transition={{
-                        duration: 3,
+                        duration: 2,
                         type: "spring"
                     }}
                     >
@@ -43,8 +43,8 @@ const Hero = () => {
                     <img src="./livingroom.jpg" alt="" />
                 </motion.div>
             </div>
-            <div className="flexCenter stats">
-                    <div className="flexColStart stat">
+            <div className="flexCenter stats">              
+                    {/* <div className="flexColStart stat">
                         <span>One Bedroom + Den</span>
                     </div>
                     <div className="flexColStart stat">
@@ -52,8 +52,39 @@ const Hero = () => {
                     </div>
                     <div className="flexColStart stat">
                         <span>Parking + Storage</span>
-                    </div>
-                </div>
+                    </div> */}
+
+                <motion.div 
+                initial={{y: "2rem", opacity: 0}}
+                animate={{y: 0, opacity: 1}}
+                transition={{
+                    duration: 2,
+                    type: "spring"
+                }} className="flexColStart stat">
+                        <span>One Bedroom + Den</span>
+                </motion.div>
+
+                <motion.div 
+                initial={{y: "2rem", opacity: 0}}
+                animate={{y: 0, opacity: 1}}
+                transition={{
+                    duration: 2,
+                    type: "spring"
+                }} className="flexColStart stat">
+                        <span>One Bathroom</span>
+                </motion.div>
+
+                <motion.div 
+                initial={{y: "2rem", opacity: 0}}
+                animate={{y: 0, opacity: 1}}
+                transition={{
+                    duration: 2,
+                    type: "spring"
+                }} className="flexColStart stat">
+                        <span>Parking + Storage</span>
+                </motion.div>
+                   
+            </div>
         </div>
     </section>
   )
